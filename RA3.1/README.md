@@ -22,16 +22,23 @@ En este apartado se han aplicado las restricciones de seguridad mediante Content
 
 En este apartado se han aplicado las restricciones de CSP del apartado anterior y se ha añadido un Web Application Firewall (WAF). El WAF permite filtrar y monitorear el tráfico HTTP para bloquear posibles ataques a la aplicación web, como inyecciones SQL y accesos no autorizados.
 
-![IMG](URL_IMG)
+![Muestra WAF 1](https://github.com/user-attachments/assets/1cc62586-81ad-460d-a87a-8e0237d69dda)
+
+![image](https://github.com/user-attachments/assets/f7f12c2f-9faf-40a5-8f92-7fa7df5f13a7)
+
 
 ## Apartado 3.3 - Implementación de CSP + WAF + OWASP
 
 Aquí se han mantenido las configuraciones anteriores de CSP y WAF, pero se ha incorporado un conjunto de reglas de seguridad OWASP, específicamente del OWASP ModSecurity Core Rule Set (CRS). Estas reglas proporcionan una protección adicional contra vulnerabilidades comunes en aplicaciones web, como ejecución remota de código y fugas de información.
 
-![IMG](URL_IMG)
+![Muestr OWASP 1](https://github.com/user-attachments/assets/41b5d210-e88f-479b-ae9e-4deeb8eb92fd)
+
+![Muestra OWASP](https://github.com/user-attachments/assets/80cbdd6c-9261-4bca-b154-f50e91ee4882)
+
 
 ## Apartado 3.4 - Implementación de CSP + WAF + OWASP + DDoS
 
 En este último apartado, además de las configuraciones anteriores, se ha implementado un mecanismo de mitigación de ataques de denegación de servicio distribuido (DDoS). Se han establecido reglas para limitar las solicitudes por IP y analizar patrones de tráfico sospechoso, reduciendo el impacto de posibles ataques de saturación.
 
-![IMG](URL_IMG)
+![MuestraDDos](https://github.com/user-attachments/assets/1cb5f33f-0396-44b0-9953-5f74cf2d6c69)
+
