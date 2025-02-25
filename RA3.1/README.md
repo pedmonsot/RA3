@@ -15,7 +15,8 @@ Esta práctica consiste en aplicar diversas medidas de seguridad en una web Apac
 
 En este apartado se han aplicado las restricciones de seguridad mediante Content Security Policy (CSP). Estas políticas ayudan a prevenir ataques como Cross-Site Scripting (XSS) y otros tipos de inyección de código malicioso. Se han configurado encabezados HTTP adecuados para restringir los orígenes de carga de contenido y scripts.
 
-![IMG](URL_IMG)
+![image](https://github.com/user-attachments/assets/3be7e48d-3b13-4301-ab3f-4f3e682054d7)
+
 
 ## Apartado 3.2 - Implementación de CSP + WAF
 
