@@ -10,4 +10,5 @@ Esta práctica tiene como objetivo aplicar diversas medidas de seguridad que han
 
 ## Muestras
 
-![IMG](URL_IMG)
+![Captura de pantalla de 2025-02-25 11-17-34](https://github.com/user-attachments/assets/19b7206b-4e90-4c34-b9b6-0b03e9aeee67)
+
