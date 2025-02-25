@@ -4,7 +4,7 @@
 
 Esta práctica consiste en aplicar diversas medidas de seguridad en una web Apache alojada en un contenedor Docker. Se implementarán políticas de seguridad de contenido (CSP), firewalls de aplicaciones web (WAF), reglas OWASP y mitigación de ataques DDoS.
 
-## Contenedores Docker
+## Tasks
 
 * [CSP](https://hub.docker.com/r/pedmmonsot/csp)
 * [CSP + WAF](https://hub.docker.com/r/pedmmonsot/csp-waf)

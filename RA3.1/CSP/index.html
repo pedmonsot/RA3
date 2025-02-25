@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        input, button {
+            margin: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Práctica PPS</h1>
+    <hr>
+    <h2>Introduce tu nombre</h2>
+    <input type="text" id="nombre" placeholder="Tu nombre">
+    <button onclick="mostrarBienvenida()">Enviar</button>
+    <h3 id="mensaje"></h3>
+
+    <script>
+        function mostrarBienvenida() {
+            var nombre = document.getElementById("nombre").value;
+            if (nombre.trim() !== "") {
+                document.getElementById("mensaje").innerText = "¡Bienvenido, " + nombre + "!";
+            } else {
+                document.getElementById("mensaje").innerText = "Por favor, introduce tu nombre.";
+            }
+        }
+    </script>
+</body>
+</html>
