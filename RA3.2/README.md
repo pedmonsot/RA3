@@ -10,5 +10,8 @@ Esta práctica consiste en aplicar diversas medidas implementadas en los apartad
 
 ## Muestras
 
+![Muestra navegacion](https://github.com/user-attachments/assets/2639ce60-6156-4998-821a-f35777f11c52)
 
-![IMG](URL_IMG)
+![Certificado](https://github.com/user-attachments/assets/d991831f-a710-41ad-9313-422931d2c068)
+
+
